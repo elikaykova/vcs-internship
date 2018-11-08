@@ -1,6 +1,6 @@
 import collections
 
-'''
+"""
 Task: Fill replace the ??? and define the flatten function
 >>> a = [[1, 2], [3, 4], [5, 6]]
 
@@ -19,7 +19,8 @@ Task: Fill replace the ??? and define the flatten function
 [1, 2, 3, 4, 5, 6, 7, 8]
 
 Hint: use list comprehension + recursion
-'''
+"""
+
 
 def flatten(xs):
     pass
@@ -27,4 +28,5 @@ def flatten(xs):
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

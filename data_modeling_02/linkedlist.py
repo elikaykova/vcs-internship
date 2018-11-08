@@ -2,7 +2,7 @@ class Cons:
     pass
 
 
-nil = '?'
+nil = "?"
 
 
 def make_list(items):
@@ -41,4 +41,5 @@ Indexing:
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

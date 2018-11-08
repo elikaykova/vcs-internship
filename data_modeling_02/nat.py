@@ -1,5 +1,4 @@
 class Nat(object):
-
     @classmethod
     def from_int(cls, number):
         pass
@@ -22,6 +21,7 @@ class Nat(object):
 
 class Zero(Nat):
     pass
+
 
 class Succ(Nat):
     pass

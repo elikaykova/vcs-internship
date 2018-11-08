@@ -1,0 +1,17 @@
+repos:
+-   repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+    - id: black
+      language: system
+      entry: black
+      types: [python]
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v1.2.3
+  hooks:
+  - id: flake8
+    name: flake8
+    language: system
+    entry: flake8
+    types: [python]
+
