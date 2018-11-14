@@ -23,7 +23,9 @@ Hint: use list comprehension + recursion
 
 
 def flatten(xs):
-    pass
+    if xs is not list:
+        return xs
+    return [flatten(l) for l in xs]
 
 
 if __name__ == "__main__":
